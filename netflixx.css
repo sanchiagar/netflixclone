@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Martel+Sans:wght@600;900&family=Poppins:wght@700&family=Qwitcher+Grypen:wght@700&family=Rubik+Bubbles&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("assets/img/bg.jpg");
+    background-position: center center;
+    background-size: max(1300px,100vw);
+    height: 95vh;
+    position: relative;
+}
+.main .box{
+    height: 95vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 82px;
+}
+
+nav img{
+    color: red;
+    width: 148px;
+    position: relative;
+    z-index: 10;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% - 82px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 33px;
+    padding: 0 27px;
+    
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.separation{
+    height: 9px;
+    background-color: rgba(84, 81, 81, 0.415);
+}
+.btn{
+    padding: 6px 34px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    margin: 14px 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.hbutton{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.main input{
+    padding: 11px 151px 20px 28px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgba(25, 20, 20, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgba(188, 198, 198, 0.536);
+    font-weight: 500;
+    color: azure;
+}
+.redd{
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 26px;
+}
+.redy{
+    background-color: red;
+    color: azure;
+    padding: 11px 28px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.trans{
+    background-color: rgba(47, 38, 38, 0.473);
+    border: 1px solid rgb(209, 218, 218);
+    border-radius: 3px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+
+.secimg{
+    position: relative;
+    top: 53px;
+}
+.secimg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+}
+.sectionimg img{
+    top: 40px;
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 555px;
+}
+.sectionimg video{
+    position: absolute;
+    width: 350px;
+    margin-top: 60px;
+    right: 330px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 34px 0;   
+}
+
+.first > div :nth-child(1){
+    font-size: 46px;
+    font-weight: bolder;
+    
+}
+.first > div :nth-child(2){
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sepration{
+    height: 9px;
+    background-color: rgba(84, 81, 81, 0.415);
+    margin-top: 150px;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 44px;
+    
+}
+.faqbox:hover {
+      background-color: rgb(150, 142, 142);
+}
+.faqbox{
+    transition: all 1s ease-out;
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    background-color: #524b4b;
+    padding: 28px;
+    color: azure;
+    max-width: 65vw;
+    margin: 24px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.watch input{
+    padding: 11px 141px 15px 24px;
+    font-size: 18px;
+    border-radius: 3px;
+    background-color: rgba(25, 20, 20, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgba(188, 198, 198, 0.536);
+    font-weight: 500;
+    color: azure;
+}
+.watch :nth-child(1){
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.watch{
+    margin-top: 80px;
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 33px;
+    padding: 0 27px;
+}
+@media  screen and (max-width: 1300px) {
+    nav{
+        max-width: 90vw;
+    }
+    
+    .first{
+        flex-wrap: wrap;
+    }
+    .secimg img {
+        width: 330px;
+    }
+    .secimg video{
+        width: 330px;
+    }
+    .hero> :nth-child(1){
+        font-size: 32px;
+    }
+    .hero> :nth-child(2){
+        font-size: 18px;
+    }
+    .hero> :nth-child(3){
+        font-size: 18px;
+    }
+    .hbutton{
+        flex-direction: column;
+    }
+    .faq h2{
+        font-size: 32px;
+    }
+}
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        color: white;  
+    }
+    .questions{
+        padding: 31px 0;
+    }
+    .footer a{
+        font-size: 10x;
+        color: white;
+    }
+    .footeritem{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        max-width: 60vw;
+        margin: auto ;
+        color: azure;
+        padding: 34px;
+    
+}
+@media screen and (max-width: 1300px) {
+    .footer{
+        gap: 29px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;  
+    }
+    footer{
+        max-width: 90vw;
+    }
+    .footeritem{
+        align-items: center;
+    }
+}
